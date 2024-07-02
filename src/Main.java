@@ -14,9 +14,9 @@ public class Main {
         System.out.println("Задача 2");
         int clientDeviceYear = 2013;
         if (clientDeviceYear > 2015 && clientOS == 1) {
-            System.out.println("Установить версию приложения для Андроид по ссылке");
+            System.out.println("Установить версию приложения для Android по ссылке");
         } else if (clientDeviceYear <= 2015 && clientOS == 1) {
-            System.out.println("Установите облегченную версию приложения для Андроид по ссылке");
+            System.out.println("Установите облегченную версию приложения для Android по ссылке");
         } if (clientDeviceYear > 2015 && clientOS == 0) {
             System.out.println("Установите версию приложения для iOS по ссылке");
         } else if (clientDeviceYear <= 2015 && clientOS == 0) {
@@ -45,9 +45,9 @@ public class Main {
         System.out.println("Задача 3");
         int year = 1800;
         if (year % 4 == 0 && year % 100 != 0 || year % 400 == 0) {
-            System.out.println(year + " год является весокостным");
+            System.out.println(year + " год является високостным");
         } else {
-            System.out.println(year + " год не является весокостным");
+            System.out.println(year + " год не является високостным");
         }
         System.out.println("Задача 5");
         int monthNumber = 12;
@@ -106,9 +106,11 @@ public class Main {
             case 7:
             case 8:
                 System.out.println("Лето");
+                break;
             case 9:
             case 10:
             case 11:
+
                 System.out.println("Осень");
                 break;
             default:
